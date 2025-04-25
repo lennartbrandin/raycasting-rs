@@ -1,6 +1,8 @@
 pub mod common {
-    pub type Display = char;
     pub use std::fmt;
-    pub const DEFAULT_DISPLAY: Display = ' ';
+    pub use log::{info};
+
+    pub type Display = char;
+    pub const DEFAULT_DISPLAY: Display = 'a';
 
 }

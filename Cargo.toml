@@ -6,3 +6,5 @@ edition = "2024"
 [dependencies]
 termion = "4.0.5"
 nix = "0.29.0"
+log = "0.4"
+env_logger = "0.11"
